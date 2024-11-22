@@ -1,7 +1,36 @@
+.main_div{
+    position: absolute;
+}
+.main__choice{
+    position: relative;
+    width: 1378px;
+    height: 768px;
+    background-image: url(/assets/images/tree1.png);
+    right: 0px;
+}
+.corner__main{
+    right: 0%;
+    background-image: url(/assets/images/corner.png);
+}
 .option{
+    position: relative;
+    bottom: 0%;
     width: 503px;
     height:2%;
     padding: 10px;
     border: 1px solid #000;
     background-color: #fff;
+    background-color: #A8C19F;
+}
+.option_ver1{
+    margin:51px 0px 0px 116px ;
+}
+.option_ver2{
+    margin: 64px 0px 0px 22px;
+}
+.option_ver3{
+    margin: 64px 0px 0px 116px;
+}
+.option_ver4{
+    margin: 64px 0px 0px 22px;
 }
